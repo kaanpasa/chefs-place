@@ -18,7 +18,7 @@
     transition:  0.2s ease;
 }
 
-/*! base html codes*/
+/*! base html codes start*/
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -28,9 +28,22 @@ html{
 
 body{
     background-color: var(--main-color);
-    height: 200vh;
 }
 
+section{
+    padding: 3.5rem 7%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+}
+/*! base html codes end*/
 
 /* header start */
 .header .logo img{
@@ -71,3 +84,33 @@ body{
     background-color: transparent;
 }
 /* header end */
+
+/* home start*/
+.home{
+    min-height: 100vh;
+    background: url(../chefs-place/images/home.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -14.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc ;
+}
+/* home end*/
