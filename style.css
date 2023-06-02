@@ -26,6 +26,16 @@ html{
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: 1rem;
+    background-color: white;
+
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--black-color);
+}
+
 body{
     background-color: var(--main-color);
 }
@@ -42,6 +52,10 @@ section{
     font-size: 1.7rem;
     color: #fff;
     background-color: var(--black-color);
+}
+
+.btn:hover{
+    opacity: 0.9;
 }
 /* base html codes end */
 
@@ -88,7 +102,7 @@ section{
 /* home start */
 .home{
     min-height: 100vh;
-    background: url(../chefs-place/images/home.jpg)
+    background: url(images/home.jpg)
     no-repeat;
     background-size: cover;
     background-position: center;
