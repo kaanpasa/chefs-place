@@ -619,12 +619,12 @@ a{
         position: absolute;
         top: 95%;
         background-color: #fff;
-        height: calc(100vh - 9rem);
+        height: auto;
         width: auto;
         box-shadow: 0px 20px 14px 0px rgb(0,0,0,0.75);
         right: -100%;
     }
-    .header navbar.active{
+    .header .navbar.active{
         right: 3rem;
     }
     .header .navbar a{
@@ -633,6 +633,14 @@ a{
         margin: 1.5rem;
         padding: 0.5rem;
         font-size: 2rem;
+    }
+}
+@media(max-width: 576px){
+    html{
+        font-size:50%;
+    }
+    .header #menu-btn{
+        display: inline-block;
     }
 }
 /* responsive end */
