@@ -79,6 +79,7 @@ a{
     right: 7%;
     background-color: #fff;
     width: 50rem;
+    max-width: 90%;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -140,10 +141,12 @@ a{
     width: 35rem;
     background-color: #fff;
     box-shadow: 0px 20px 14px 0px rgb(0,0,0,0,75%);
-    right: -100%;
+    right: -50rem;
+    transform: scaleY(0);
 }
 .header .cart-items-container.active{
     right: 3rem;
+    transform: scaleY(1);
 }
 .header .cart-items-container .cart-item{
     position: relative;
@@ -587,10 +590,12 @@ a{
         height: auto;
         width: auto;
         box-shadow: 0px 20px 14px 0px rgb(0,0,0,0.75);
-        right: -100%;
+        right: -50rem;
+        transform: scaleY(0);
     }
     .header .navbar.active{
         right: 3rem;
+        transform: scaleY(1);
     }
     .header .navbar a{
         color: var(--black-color);
